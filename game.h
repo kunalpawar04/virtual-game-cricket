@@ -7,7 +7,7 @@
 class Game
 {
 public:
-    //Basic conditions
+    // Basic conditions
     Game();
     int playerPerTeam;
     int totalPlayers;
@@ -20,50 +20,50 @@ public:
     Team *battingTeam, *bowlingTeam;
     Player *batsman, *bowler;
 
-    //Welcome function declaration
+    // Welcome function declaration
     void welcome();
 
-    //ShowAll function declaration
+    // ShowAll function declaration
     void showAllPlayers();
 
-    //Integer input function
+    // Integer input function
     int integerInput();
 
-    //Select Players
+    // Select Players
     void selectPlayers();
 
-    //Show all team players
+    // Show all team players
     void showAllTeamPlayers();
 
-    //Toss function
+    // Toss function
     void generateToss();
 
-    //Choose b/w batting or bowling
+    // Choose b/w batting or bowling
     void chooseBatOrBowl(Team);
 
-    //To play the first inning
+    // To play the first inning
     void playFirstInning();
 
-    //Assigning pointers to teams and players
+    // Assigning pointers to teams and players
     void initialisePlayers();
 
     void actualGamePlay();
 
-    //random function to produce runs
+    // random function to produce runs
     void handleBatting();
 
-    //Checks if all are out or over is finished
+    // Checks if all are out or over is finished
     bool isInningScoreValid();
 
-    //Displaying score card after each ball
+    // Displaying score card after each ball
     void showScoreCard();
 
-    //To play second inning
+    // To play second inning
     void playSecondInning();
 
-    //Display final outcome of the match
+    // Display final outcome of the match
     void displayResult();
 
-    //Final ScoreCard
+    // Final ScoreCard
     void displayFinalScoreCard();
 };
